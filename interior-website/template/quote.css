@@ -1,0 +1,27 @@
+#quote-section {
+    padding: 80px 120px;
+}
+#quote-section .quote-title {
+    margin-bottom: 50px;
+}
+#quote-section .quote-title p {
+    font-size: 1.1rem;
+}
+#quote-section input, select{
+    height: 50px;
+}
+
+
+#quote-section textarea {
+    height: 200px;
+}
+.quote-button {
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    background-color: #3184a5;
+}
+.quote-button:hover {
+    background-color: rgb(30, 90, 202);
+}

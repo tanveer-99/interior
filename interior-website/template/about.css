@@ -1,0 +1,60 @@
+body {
+    overflow-x: hidden;
+
+}
+#about-us {
+    padding: 50px 0;
+    margin-bottom: 20px;
+}
+#about-us .about-us-title h1 {
+    border-bottom: 2px solid rgb(185, 185, 185);
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.about-us-img {
+    width: 100%;
+    border-radius: 10px;
+}
+.about-us-text {
+    line-height: 1.7;
+}
+
+#why-choose-section {
+    padding: 50px 0;
+    margin-bottom: 0;
+    background-color: gray;
+    background-image: url("./img/exclusive_gallery/05.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+#why-choose-section::before {
+        background: rgba(0, 0, 0, 0.85) none repeat scroll 0 0;
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+}
+
+/* .why-choose-title h1 {
+    border-bottom: 2px solid rgb(185, 185, 185);
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+} */
+.why-choose-icons {
+    color: white;
+    font-size: 3rem;
+    background-color: #3184a5;
+    padding: 20px;
+    border-radius: 5px;
+
+}
